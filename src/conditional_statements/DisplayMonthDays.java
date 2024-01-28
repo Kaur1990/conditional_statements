@@ -48,6 +48,8 @@ public class DisplayMonthDays {
 	case 12:
 		System.out.println("December has 31 days");
 		break;
+	default:
+		System.out.println("You have value put else smaller than 1 or greater than 12");
 	}
 	
 }
